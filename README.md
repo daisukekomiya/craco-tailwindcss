@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### プロジェクト作成の流れ
+1. 実行環境であるnode.jsはコンテナ上で動作させるため、一旦既存のdocker-compose.ymlでコンテナを立ち上げる
+2. コンテナが立ち上がったら、create-react-app craco-tailwindcssを実行してreactプロジェクトを作成
+3. プロジェクトが作成されたら、一旦コンテナから抜け出し、docker-compose.ymlを作成したプロジェクト内に移動させ、再度コンテナ立ち上げ
+
+
+
