@@ -71,10 +71,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-### プロジェクト作成の流れ
-1. 実行環境であるnode.jsはコンテナ上で動作させるため、一旦既存のdocker-compose.ymlでコンテナを立ち上げる
-2. コンテナが立ち上がったら、create-react-app craco-tailwindcssを実行してreactプロジェクトを作成
-3. プロジェクトが作成されたら、一旦コンテナから抜け出し、docker-compose.ymlを作成したプロジェクト内に移動させ、再度コンテナ立ち上げ
+## プロジェクト作成の流れ
+1. 実行環境であるnode.jsはコンテナ上で動作させるため、一旦既存の"docker-compose.yml"でコンテナを立ち上げる
+2. コンテナが立ち上がったら、"create-react-app craco-tailwindcss"を実行してreactプロジェクトを作成
+3. プロジェクトが作成されたら、一旦コンテナから抜け出し、"docker-compose.yml"を作成したプロジェクト内に移動させる
+4. githubリポジトリを管理画面で新規作成し、表示された情報をもとに"git remote add origin リポジトリURL"を実行、コミットアンドプッシュを行い、管理画面で反映されたことを確認する
 
 
 
