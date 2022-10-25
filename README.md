@@ -77,5 +77,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 3. プロジェクトが作成されたら、一旦コンテナから抜け出し、"docker-compose.yml"を作成したプロジェクト内に移動させる
 4. githubリポジトリを管理画面で新規作成し、表示された情報をもとに"git remote add origin リポジトリURL"を実行、コミットアンドプッシュを行い、管理画面で反映されたことを確認する
 
+## 導入したもの
+typescript +
+eslint +
+prettier +
+CRACO +
+TailwindCss
 
 
